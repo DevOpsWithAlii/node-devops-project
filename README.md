@@ -8,6 +8,7 @@
 git clone <repo>
 
 cd node-devops-project
+
 npm install dotenv
 
 Run containers
