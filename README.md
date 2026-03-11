@@ -14,7 +14,8 @@ Redis
 
 app.js  
 package.json  
-Dockerfile  
+Dockerfile
+multi-stage
 docker-compose.yml  
 .env  
 
