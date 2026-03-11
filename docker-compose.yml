@@ -9,6 +9,9 @@ services:
     depends_on:
       - mongo
       - redis
+    networks:
+      - devops-net
+
 
   mongo:
     image: mongo:6
@@ -16,11 +19,20 @@ services:
       - mongo-data:/data/db
     ports:
       - "27017:27017"
+    networks:
+      - devops-net
+
 
   redis:
     image: redis:7
     ports:
       - "6379:6379"
+    networks:
+      - devops-net
 
 volumes:
   mongo-data:
+
+networks:
+  devops-net:
+    driver: bridge
