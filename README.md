@@ -20,17 +20,20 @@ docker-compose.yml
 
 ## Setup Instructions
 
-Clone repository:
+Clone repository:--
 
 git clone <repo-url>
 
-Go into project:
+Go into project:--
 
 cd node-devops-project
 
-Run application:
+Run application:--
 
 docker compose up --build
+
+Start the MongoDB shell:--
+[mongosh]
 
 ## Access Application
 
