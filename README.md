@@ -12,12 +12,12 @@ Redis
 
 ## Project Structure
 
-app.js  
-package.json  
-Dockerfile
-multi-stage
-docker-compose.yml  
-.env  
+- app.js  
+- package.json  
+- Dockerfile
+- multi-stage
+- docker-compose.yml  
+- .env  
 
 ## Setup Instructions
 
