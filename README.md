@@ -34,6 +34,7 @@ This project demonstrates containerizing a Node.js application using Docker and 
 docker compose up --build
 
 - Start the MongoDB shell:--
+  
 [mongosh]
 
 ## Access Application
