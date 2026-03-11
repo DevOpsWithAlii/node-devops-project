@@ -1,20 +1,41 @@
 # Node DevOps Project
 
-## Run the project
+This project demonstrates containerizing a Node.js application using Docker and Docker Compose with MongoDB and Redis.
 
-1 Install Docker
-2 Clone repo
+## Technologies
 
-git clone <repo>
+Node.js  
+Docker  
+Docker Compose  
+MongoDB  
+Redis  
+
+## Project Structure
+
+app.js  
+package.json  
+Dockerfile  
+docker-compose.yml  
+.env  
+
+## Setup Instructions
+
+Clone repository:
+
+git clone <repo-url>
+
+Go into project:
 
 cd node-devops-project
 
-npm install dotenv
-
-Run containers
+Run application:
 
 docker compose up --build
 
-Access application
+## Access Application
 
 http://localhost:8090
+
+## Health Check
+
+http://localhost:8090/health

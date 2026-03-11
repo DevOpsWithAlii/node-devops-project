@@ -1,13 +1,14 @@
 {
   "name": "node-devops-project",
   "version": "1.0.0",
+  "description": "DevOps assignment with Docker Compose",
   "main": "app.js",
   "scripts": {
     "start": "node app.js"
   },
   "dependencies": {
     "express": "^4.18.2",
-    "mongoose": "^7.0.0",
-    "redis": "^4.6.0"
+    "mongoose": "^7.5.0",
+    "redis": "^4.6.7"
   }
 }
