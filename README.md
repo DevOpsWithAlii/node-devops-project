@@ -4,11 +4,11 @@ This project demonstrates containerizing a Node.js application using Docker and 
 
 ## Technologies
 
-Node.js  
-Docker  
-Docker Compose  
-MongoDB  
-Redis  
+- Node.js  
+- Docker  
+- Docker Compose  
+- MongoDB  
+- Redis  
 
 ## Project Structure
 
@@ -21,19 +21,19 @@ Redis
 
 ## Setup Instructions
 
-Clone repository:--
+- Clone repository:--
 
-git clone <repo-url>
+ git clone <repo-url>
 
-Go into project:--
+- Go into project:--
 
-cd node-devops-project
+ cd node-devops-project
 
-Run application:--
+- Run application:--
 
 docker compose up --build
 
-Start the MongoDB shell:--
+- Start the MongoDB shell:--
 [mongosh]
 
 ## Access Application
