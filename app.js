@@ -15,8 +15,8 @@ const REDIS_PORT = process.env.REDIS_PORT;
 
 mongoose
   .connect(MONGO_URI)
-  .then(() => console.log("✅ MongoDB connected"))
-  .catch((err) => console.error("❌ MongoDB connection error:", err));
+  .then(() => console.log("MongoDB connected"))
+  .catch((err) => console.error("MongoDB connection error:", err));
 
 /* Redis Connection */
 
@@ -29,8 +29,8 @@ const redisClient = redis.createClient({
 
 redisClient
   .connect()
-  .then(() => console.log("✅ Redis connected"))
-  .catch((err) => console.error("❌ Redis connection error:", err));
+  .then(() => console.log("Redis connected"))
+  .catch((err) => console.error("Redis connection error:", err));
 
 /* Routes */
 
@@ -58,5 +58,5 @@ app.get("/health", (req, res) => {
 /* Start Server */
 
 app.listen(PORT, () => {
-  console.log(`🚀 Server running on port ${PORT}`);
+  console.log(`Server running on port ${PORT}`);
 });
